@@ -10,6 +10,7 @@ body {
 
 .logo img {
     width: 25%;
+    filter: grayscale(1);
 }
 
 .navbar {
@@ -31,6 +32,7 @@ ul {
 .menu-item {
     list-style: none;
     margin: 0 10px;
+    cursor: pointer;
 }
 
 .subscribe {
@@ -134,7 +136,7 @@ ul {
 
 .hero h1 {
     margin: 5px 0 0 0;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .hero p {
@@ -211,6 +213,14 @@ ul {
     margin-left: 15%;
     padding-bottom: 68px;
 
+}
+
+.get-link{
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.get-link i{
+    margin-right: 0.5rem;
 }
 
 #get-start {
@@ -555,6 +565,7 @@ footer {
     width: 20rem;
     border-radius: 0.5rem;
     box-shadow: 2px 2px 2px;
+    padding-left: 1rem;
 }
 
 .copyright {
